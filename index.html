@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Raahim Zobaear Tax Help — আয়কর সহায়তা</title>
+<meta name="description" content="আয়কর রিটার্ন, ট্যাক্স নোটিশ ও করদাতার সমস্যার সহজ সমাধান।">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#12263A;--brand:#1D5E8C;--accent:#E8A317;--paper:#F7F9FB;--card:#fff;--line:#D9E1E8;--mute:#5B6B7A}
+@media(prefers-color-scheme:dark){:root{--ink:#E8EEF3;--brand:#6FB1E0;--paper:#0E1822;--card:#16232F;--line:#2A3B4A;--mute:#9DB0C0}}
+*{box-sizing:border-box}html{scroll-padding-top:70px}
+body{margin:0;font-family:'Times New Roman',Tinos,Times,'Noto Sans Bengali',serif;background:var(--paper);color:var(--ink);line-height:1.7;font-size:18px}
+a{color:var(--brand)}
+header{position:sticky;top:0;background:var(--paper);border-bottom:1px solid var(--line);z-index:5}
+.bar{max-width:1040px;margin:auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.logo{font-weight:700;font-size:20px;text-decoration:none;color:var(--ink)}
+.logo b{color:var(--accent)}
+nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+nav a{padding:4px 10px;border-radius:6px;text-decoration:none;color:var(--ink);font-size:15px}
+nav a.on,nav a:hover{background:var(--brand);color:#fff}
+main{max-width:1040px;margin:auto;padding:24px 16px 60px}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.25;margin:.2em 0}
+h2{font-size:26px;margin:1.4em 0 .4em}
+.mute{color:var(--mute)}
+.hero{padding:28px 0 8px}
+.search{display:flex;gap:8px;margin:18px 0 10px}
+input,select,textarea{font:inherit;padding:11px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);width:100%}
+button,.btn{font:inherit;font-weight:600;padding:11px 20px;border:0;border-radius:8px;background:var(--accent);color:#1a1a1a;cursor:pointer;text-decoration:none;display:inline-block;white-space:nowrap}
+.btn.alt,button.alt{background:var(--brand);color:#fff}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.chips a{display:inline-block;margin:3px 6px 3px 0;padding:2px 12px;border:1px solid var(--line);border-radius:99px;text-decoration:none;font-size:15px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.tile{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--brand);padding:16px 18px;border-radius:10px;text-decoration:none;color:var(--ink);display:block}
+.tile:nth-child(2n){border-left-color:var(--accent)}
+.tile h3{margin:0 0 4px;font-size:19px}
+.cta{background:var(--ink);color:var(--paper);padding:26px;border-radius:14px;margin:30px 0;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.cta h2{margin:0;font-size:24px;flex:1 1 280px;color:inherit}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:8px 0;padding:10px 16px}
+summary{font-weight:600;cursor:pointer}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}
+label{display:block;margin:10px 0 4px;font-weight:500;font-size:15px}
+.row{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.res{font-size:22px;font-weight:700;color:var(--brand)}
+table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left}
+.scroll{overflow-x:auto}
+.soon{display:inline-block;background:var(--accent);color:#1a1a1a;border-radius:6px;padding:0 10px;font-size:14px;font-weight:600}
+footer{border-top:1px solid var(--line);padding:24px 16px;text-align:center;font-size:14px;color:var(--mute)}
+.prof{display:flex;gap:16px;align-items:center}.av{width:64px;height:64px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:26px;font-weight:700;flex:none}.tl{border-left:3px solid var(--accent);padding-left:16px;margin:10px 0}.tl p{margin:0 0 14px}.who{border-left:5px solid var(--accent)}
+section.page{display:none}section.page.on{display:block}
+@media(max-width:600px){.search{flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="bar">
+<a class="logo" href="#home">Raahim Zobaear <b>Tax</b> Help</a>
+<nav id="nav"></nav>
+</div></header>
+<main id="app"></main>
+<footer>
+<p id="foot"></p>
+<p><a href="#privacy">গোপনীয়তা নীতি</a> · <a href="#disclaimer">দায়মুক্তি</a> · <a href="#terms">ব্যবহারের শর্ত</a></p>
+<p>© 2026 Raahim Zobaear Tax Help · এই সাইটের তথ্য সাধারণ ধারণার জন্য, আইনি বা পেশাদার পরামর্শের বিকল্প নয়। নির্দিষ্ট সমস্যায় কাগজপত্র দেখে পরামর্শ নিন।</p>
+</footer>
+<script>
+/* ===== এখানে নিজের তথ্য বসান (শুধু এই অংশ বদলালেই হবে) ===== */
+const CFG={
+ name:"Raahim Zobaear Tax Help",
+ expert:"মো. জুবায়ের হোসেন",   // বিশেষজ্ঞের নাম
+ phone:"+8801673652814",       // মোবাইল ১
+ phone2:"+8801716616304",      // মোবাইল ২
+ whatsapp:"8801673652814",     // WhatsApp (শুরুতে + ছাড়া, 880 সহ)
+ email:"Mdzobaearhossain@gmail.com",    // ইমেইল
+ facebook:"https://m.facebook.com/raahim.hossain.422663/",
+ address:"পানাম, সোনারগাঁও, নারায়ণগঞ্জ",
+ map:"https://www.google.com/maps/search/?api=1&query=Panam+Sonargaon+Narayanganj",
+ hours:"সকাল ১০টা থেকে রাত ১০টা"
+};
+/* কর হারের স্ল্যাব: প্রতি বছর বাজেটের পর যাচাই করে বদলান [পরিমাণ, হার] */
+const FREE=375000;
+const SLABS=[[300000,.10],[400000,.15],[500000,.20],[2000000,.25],[Infinity,.30]];
+const MIN_TAX={"ঢাকা/চট্টগ্রাম সিটি":5000,"অন্যান্য সিটি কর্পোরেশন":4000,"সিটির বাইরে":3000};
+/* ===== কনটেন্ট ===== */
+const PROBLEMS=[
+["রিটার্ন জমার পর ভুল ধরা পড়েছে","জমা দেওয়া রিটার্নে ভুল পেলে প্রথমে কাগজপত্র মিলিয়ে ভুলটি চিহ্নিত করুন। সংশোধিত রিটার্ন দেওয়ার সুযোগ ও সময়সীমা আইনের শর্ত অনুযায়ী যাচাই করতে হয়। দেরি না করে পরামর্শ নিন।"],
+["ট্যাক্স নোটিশ পেয়েছেন","নোটিশে কোন বছর, কোন ধারা ও কী কাগজ চাওয়া হয়েছে তা দেখুন। নোটিশে দেওয়া সময়ের মধ্যে উত্তর দিন এবং চাওয়া নথির কপি গুছিয়ে রাখুন। না বুঝে কিছু জমা দেবেন না।"],
+["উৎসে কর (Source Tax) ক্রেডিট পাচ্ছেন না","উৎসে কর কাটার সার্টিফিকেট/চালান আছে কি না দেখুন এবং রিটার্নে সঠিক অংকে দেখানো হয়েছে কি না মিলিয়ে নিন। কর্তনকারীর তথ্য ও TIN ঠিক থাকা জরুরি।"],
+["ব্যাংক লেনদেন নিয়ে প্রশ্ন উঠেছে","লেনদেনের উৎস ব্যাখ্যা করতে পারে এমন কাগজ (বেতন, ব্যবসার হিসাব, ঋণ, উপহার ইত্যাদি) আগে থেকে সাজিয়ে রাখুন। রিটার্নে আয় ও সম্পদের সাথে স্টেটমেন্ট মিলছে কি না যাচাই করুন।"],
+["e-Return করতে সমস্যা হচ্ছে","TIN, পাসওয়ার্ড ও মোবাইল নম্বর ঠিক আছে কি না দেখুন। সব সেকশন (আয়, সম্পদ-দায়, খরচ) পূরণ করে তবেই সাবমিট করুন এবং সাবমিশনের প্রমাণ সংরক্ষণ করুন।"],
+["সম্পদ ও দায়ের বিবরণী নিয়ে সমস্যা","সম্পদের ক্রয়মূল্য ও অর্থের উৎস, ঋণের নথি এবং আগের বছরের সাথে সম্পদের বৃদ্ধির ব্যাখ্যা প্রস্তুত রাখুন। অমিল থাকলে রিটার্ন জমার আগেই সমাধান করুন।"]
+];
+const GUIDES=[
+["9 Oct 2026","অনলাইনে e-Return কীভাবে জমা দেবেন?","ধাপ: (১) TIN সার্টিফিকেট ও লগইন তথ্য প্রস্তুত রাখুন। (২) NBR-এর e-Return পোর্টালে লগইন করুন। (৩) আয়ের উৎস অনুযায়ী তথ্য দিন। (৪) সম্পদ-দায় ও জীবনযাত্রার ব্যয় পূরণ করুন। (৫) কর হিসাব মিলিয়ে সাবমিট করুন ও প্রাপ্তিস্বীকার সংরক্ষণ করুন।"],
+["7 Oct 2026","আয়কর রিটার্ন কী? কাদের জমা দিতে হয়?","নির্দিষ্ট আয়ের সীমা পার করলে বা আইনে নির্ধারিত কিছু শর্ত পূরণ করলে রিটার্ন জমা দিতে হয়। কারো কর দেওয়ার মতো আয় না থাকলেও রিটার্ন দেওয়া জরুরি হতে পারে। আপনার ক্ষেত্রে প্রযোজ্য কি না নিশ্চিত হতে পরামর্শ নিন।"],
+["5 Oct 2026","TIN কী এবং কীভাবে নেবেন?","TIN হলো করদাতার শনাক্তকরণ নম্বর। NBR-এর অনলাইন পোর্টালে জাতীয় পরিচয়পত্র ও মোবাইল নম্বর দিয়ে নিবন্ধন করে TIN সার্টিফিকেট পাওয়া যায়।"]
+];
+const UPDATES=[
+["নমুনা","এখানে NBR-এর নতুন আদেশ, প্রজ্ঞাপন ও আইন পরিবর্তনের খবর যোগ হবে। (UPDATES তালিকায় নিজে লিখে দিন।)"]
+];
+const DOCS=["TIN সার্টিফিকেট","জাতীয় পরিচয়পত্র","বেতনের সনদ / পে-স্লিপ","ব্যাংক স্টেটমেন্ট (পুরো বছর)","উৎসে কর কর্তনের সার্টিফিকেট","সম্পদের কাগজ (জমি, গাড়ি, ফ্ল্যাট)","ঋণের নথি","দান/বিনিয়োগের প্রমাণ (সঞ্চয়পত্র, DPS ইত্যাদি)","গত বছরের রিটার্নের কপি"];
+const bn=n=>Number(n).toLocaleString("bn-BD");
+const tk=n=>"৳ "+Math.round(n).toLocaleString("en-IN");
+/* ===== পেজ ===== */
+const PAGES={
+home:["হোম",()=>`
+<div class="hero"><h1>আয়কর নিয়ে সমস্যা? সহজ ভাষায় সমাধান।</h1>
+<p class="mute">রিটার্ন, ট্যাক্স নোটিশ, উৎসে কর, সম্পদ বিবরণী। বাংলাদেশের করদাতার বাস্তব সমস্যার ব্যবহারিক গাইড।</p>
+<form class="search" onsubmit="return go(event)"><input id="q" placeholder="যেমন: ট্যাক্স নোটিশ, e-Return" aria-label="সার্চ"><button>খুঁজুন</button></form>
+<div class="chips">${["ট্যাক্স নোটিশ","e-Return","উৎসে কর","TIN","ব্যাংক লেনদেন"].map(x=>`<a href="#search/${encodeURIComponent(x)}">${x}</a>`).join("")}</div></div>
+<h2>কোথা থেকে শুরু করবেন</h2>
+<div class="grid">
+<a class="tile" href="#problems"><h3>করদাতার সমস্যা</h3>নোটিশ, ভুল রিটার্ন, ক্রেডিট নিয়ে সমাধান</a>
+<a class="tile" href="#guides"><h3>ট্যাক্স গাইড</h3>ধাপে ধাপে সহজ নির্দেশনা</a>
+<a class="tile" href="#tools"><h3>ক্যালকুলেটর ও টুল</h3>আনুমানিক কর, নথির তালিকা, সময়সীমা</a>
+<a class="tile" href="#cases"><h3>মামলার রায় <span class="soon">শীঘ্রই</span></h3>গুরুত্বপূর্ণ আয়কর রায়ের সহজ ব্যাখ্যা</a>
+<a class="tile" href="#updates"><h3>আপডেট</h3>নতুন আইন ও NBR-এর নির্দেশ</a>
+</div>
+<div class="box who"><b>বিশেষজ্ঞ: ${CFG.expert}</b><p style="margin:4px 0 8px">মেঘনা গ্রুপের (MGI) ট্যাক্স ডিভিশনে দীর্ঘদিন ধরে কর্মরত ট্যাক্স এক্সপার্ট। এর আগে আনোয়ার গ্রুপ, দেশবন্ধু গ্রুপ ও এসিআই-তে কাজের অভিজ্ঞতা।</p><a href="#about">পুরো পরিচিতি দেখুন</a></div>
+<div class="cta"><h2>আপনার সমস্যা নিয়ে কথা বলতে চান? প্রথম পরামর্শ বিনামূল্যে।</h2><a class="btn" href="#consult">বিনামূল্যে পরামর্শ</a></div>
+<h2>সর্বশেষ গাইড</h2>${GUIDES.slice(0,2).map(g=>`<details><summary>${g[1]}</summary><p>${g[2]}</p><small class="mute">${g[0]}</small></details>`).join("")}${subscribe()}`],
+problems:["করদাতার সমস্যা",()=>`<h1>আপনার সমস্যা কি এখানে আছে?</h1><p class="mute">প্রশ্নে ক্লিক করে সাধারণ করণীয় দেখুন।</p>${PROBLEMS.map(p=>`<details><summary>${p[0]}</summary><p>${p[1]}</p><a class="btn alt" href="#consult">এ বিষয়ে পরামর্শ নিন</a></details>`).join("")}`],
+guides:["গাইড",()=>`<h1>ট্যাক্স গাইড</h1>${GUIDES.map(g=>`<details><summary>${g[1]}</summary><p>${g[2]}</p><small class="mute">${g[0]}</small></details>`).join("")}`],
+cases:["মামলার রায়",()=>`<h1>মামলার রায় <span class="soon">শীঘ্রই আসছে</span></h1><p>আদালত ও ট্যাক্স ট্রাইব্যুনালের গুরুত্বপূর্ণ আয়কর রায়ের সহজ ব্যাখ্যা এখানে যোগ হবে। নতুন রায় পেলে তা জানাতে ইমেইলে সাবস্ক্রাইব করুন।</p>${subscribe()}`],
+updates:["আপডেট",()=>`<h1>ট্যাক্স আপডেট</h1>${UPDATES.map(u=>`<div class="box"><b>${u[0]}</b><p>${u[1]}</p></div>`).join("")}${subscribe()}`],
+tools:["টুলস",()=>`<h1>ক্যালকুলেটর ও টুল</h1>
+<div class="box"><h2 style="margin-top:0">আনুমানিক আয়কর হিসাব</h2>
+<p class="mute">ব্যক্তি করদাতার (সাধারণ) বার্ষিক করযোগ্য আয় দিয়ে মোটামুটি হিসাব। রেয়াত/ছাড় ধরা হয়নি।</p>
+<div class="row"><div><label for="inc">বার্ষিক করযোগ্য আয় (টাকা)</label><input id="inc" type="number" min="0" inputmode="numeric" placeholder="যেমন 800000"></div>
+<div><label for="loc">এলাকা</label><select id="loc">${Object.keys(MIN_TAX).map(k=>`<option>${k}</option>`).join("")}</select></div></div>
+<p><button onclick="calc()">হিসাব করুন</button></p><div id="out" aria-live="polite"></div></div>
+<div class="box"><h2 style="margin-top:0">রিটার্নের নথির তালিকা</h2>${DOCS.map((d,i)=>`<label style="display:flex;gap:8px;align-items:center;margin:4px 0"><input style="width:auto" type="checkbox" onchange="chk()"> ${d}</label>`).join("")}<p id="ck" class="mute"></p></div>
+<div class="box"><h2 style="margin-top:0">গুরুত্বপূর্ণ সময়সীমা</h2><p>ব্যক্তি করদাতার রিটার্ন জমার সাধারণ শেষ সময় <b>৩০ নভেম্বর</b>। NBR সময় বাড়ালে বা বদলালে আপডেট পাতা দেখুন।</p><p id="days" class="res"></p></div>`],
+consult:["পরামর্শ",()=>`<h1>বিনামূল্যে পরামর্শ</h1><p class="mute">প্রথম পরামর্শ বিনামূল্যে। নির্দিষ্ট পরামর্শের জন্য আপনার কাগজপত্র দেখতে হতে পারে। পরামর্শের সময়: ${CFG.hours}।</p>
+<div class="box"><div class="row"><div><label for="n">আপনার নাম</label><input id="n"></div><div><label for="p">মোবাইল নম্বর</label><input id="p" type="tel"></div></div>
+<label for="t">বিষয়</label><select id="t"><option>ট্যাক্স নোটিশ</option><option>রিটার্ন জমা</option><option>TIN</option><option>উৎসে কর</option><option>অন্যান্য</option></select>
+<label for="m">আপনার সমস্যা</label><textarea id="m" rows="4"></textarea>
+<p><button id="cb" onclick="send('form')">জমা দিন</button> <button class="alt" onclick="send('wa')">WhatsApp-এ পাঠান</button></p><p id="err" class="mute"></p></div>`],
+about:["পরিচিতি",()=>`<h1>বিশেষজ্ঞ পরিচিতি</h1>
+<div class="box prof"><div class="av" aria-hidden="true">জু</div><div><h2 style="margin:0">${CFG.expert}</h2><p class="mute" style="margin:0">ট্যাক্স এক্সপার্ট · ট্যাক্স ডিভিশন, মেঘনা গ্রুপ (MGI)</p></div></div>
+<p>${CFG.expert} মেঘনা গ্রুপের ট্যাক্স ডিভিশনে দীর্ঘদিন ধরে কর্মরত। কর্পোরেট পর্যায়ের কর ব্যবস্থাপনার বাস্তব অভিজ্ঞতা থেকে তিনি সাধারণ করদাতাদের রিটার্ন, নোটিশ ও কর সংক্রান্ত নানা জটিলতায় সহজ ভাষায় দিকনির্দেশনা দেন।</p>
+<h2>পেশাগত অভিজ্ঞতা</h2>
+<div class="tl">
+<p><b>মেঘনা গ্রুপ (MGI)</b><br><span class="mute">বর্তমান · ট্যাক্স ডিভিশন, ট্যাক্স এক্সপার্ট</span></p>
+<p><b>আনোয়ার গ্রুপ</b><br><span class="mute">পূর্ববর্তী কর্মস্থল</span></p>
+<p><b>দেশবন্ধু গ্রুপ</b><br><span class="mute">পূর্ববর্তী কর্মস্থল</span></p>
+<p><b>এসিআই (ACI)</b><br><span class="mute">পূর্ববর্তী কর্মস্থল</span></p></div>
+<h2>যেসব বিষয়ে সহায়তা পাবেন</h2>
+<ul><li>আয়কর রিটার্ন প্রস্তুতি ও জমা</li><li>ট্যাক্স নোটিশের উত্তর ও করণীয়</li><li>উৎসে কর ও ক্রেডিট সংক্রান্ত সমস্যা</li><li>সম্পদ ও দায়ের বিবরণী</li><li>কর পরিকল্পনা ও কর্পোরেট কর সংক্রান্ত দিকনির্দেশনা</li></ul>
+<p class="mute">এটি বিশেষজ্ঞের ব্যক্তিগত উদ্যোগ। এখানকার তথ্য বা পরামর্শ কোনো কোম্পানির প্রতিনিধিত্ব করে না।</p>
+<p><a class="btn" href="#consult">বিনামূল্যে পরামর্শ নিন</a></p>`],
+contact:["যোগাযোগ",()=>`<h1>যোগাযোগ</h1><p class="mute">সরাসরি কল বা WhatsApp করতে পারেন। সমস্যার বিবরণ লিখে পাঠালে পরামর্শ দেওয়া সহজ হয়।</p>
+<div class="box"><p><b>মোবাইল ১:</b> <a href="tel:${CFG.phone}">${CFG.phone}</a><br><span class="mute">কল ও WhatsApp</span></p><p><b>মোবাইল ২:</b> <a href="tel:${CFG.phone2}">${CFG.phone2}</a><br><span class="mute">সরাসরি কল</span></p><p><b>ইমেইল:</b> <a href="mailto:${CFG.email}">${CFG.email}</a><br><span class="mute">কাগজপত্র বা বিস্তারিত পাঠাতে</span></p><p><b>Facebook:</b> <a href="${CFG.facebook}" target="_blank" rel="noopener">পেজ দেখুন</a></p><p><b>অফিসের ঠিকানা:</b> ${CFG.address} · <a href="${CFG.map}" target="_blank" rel="noopener">Google Map-এ দেখুন</a></p><p><b>পরামর্শের সময়:</b> ${CFG.hours}</p>
+<a class="btn" href="https://wa.me/${CFG.whatsapp}" target="_blank" rel="noopener">WhatsApp করুন</a> <a class="btn alt" href="#consult">ফর্মে জানান</a></div>`],
+privacy:["গোপনীয়তা নীতি",()=>`<h1>গোপনীয়তা নীতি</h1><p>আপনি ফর্মে নাম, মোবাইল নম্বর, ইমেইল ও সমস্যার বিবরণ দিলে তা শুধু আপনার সাথে যোগাযোগ ও পরামর্শের জন্য ব্যবহার হবে। আপনার তথ্য বিক্রি বা অন্য কাউকে দেওয়া হবে না।</p><p>ফর্মের তথ্য ইমেইল পরিষেবার (FormSubmit) মাধ্যমে বা WhatsApp-এর মাধ্যমে আমাদের কাছে পৌঁছায়। তথ্য মুছে ফেলতে চাইলে ${CFG.email} এ জানান।</p>`],
+disclaimer:["দায়মুক্তি",()=>`<h1>দায়মুক্তি (Disclaimer)</h1><p>এই সাইটের তথ্য সাধারণ ধারণার জন্য, এটি আইনি বা পেশাদার পরামর্শ নয়। কর আইন ও NBR-এর নির্দেশ বদলাতে পারে, তাই সিদ্ধান্তের আগে হালনাগাদ নিয়ম যাচাই করুন। নির্দিষ্ট পরামর্শের জন্য আপনার কাগজপত্র দেখা প্রয়োজন হতে পারে।</p><p>এটি বিশেষজ্ঞের ব্যক্তিগত উদ্যোগ; কোনো কোম্পানির প্রতিনিধিত্ব বা মতামত নয়।</p>`],
+terms:["ব্যবহারের শর্ত",()=>`<h1>ব্যবহারের শর্ত</h1><p>এই সাইট ব্যবহার করলে আপনি শর্তগুলো মেনে নিচ্ছেন। সাইটের লেখা অনুমতি ছাড়া অন্যত্র প্রকাশ করা যাবে না। ক্যালকুলেটরের ফলাফল আনুমানিক, এর ভিত্তিতে নেওয়া সিদ্ধান্তের দায় সাইটের নয়। প্রয়োজনে শর্ত বদলানো হতে পারে।</p>`]
+};
+function subscribe(){return `<div class="box"><b>নতুন গাইড ও আপডেটের খবর ইমেইলে পেতে</b><div class="search"><input id="se" type="email" placeholder="আপনার ইমেইল" aria-label="ইমেইল"><button id="sb" onclick="sub()">সাবস্ক্রাইব</button></div><p id="ss" class="mute" aria-live="polite"></p></div>`}
+/* ===== ফাংশন ===== */
+function go(e){e.preventDefault();location.hash="search/"+encodeURIComponent(document.getElementById("q").value.trim());return false}
+function searchPage(q){q=decodeURIComponent(q||"").toLowerCase();const hit=[];
+PROBLEMS.forEach(p=>{if((p[0]+p[1]).toLowerCase().includes(q))hit.push(["সমস্যা",p[0],p[1],"problems"])});
+GUIDES.forEach(g=>{if((g[1]+g[2]).toLowerCase().includes(q))hit.push(["গাইড",g[1],g[2],"guides"])});
+return `<h1>"${q}" এর ফলাফল</h1>${hit.length?hit.map(h=>`<a class="tile" style="margin:8px 0" href="#${h[3]}"><small class="mute">${h[0]}</small><h3>${h[1]}</h3>${h[2].slice(0,110)}…</a>`).join(""):`<p>কিছু পাওয়া যায়নি। অন্য শব্দ দিয়ে চেষ্টা করুন বা <a href="#consult">আমাদের জানান</a>।</p>`}`}
+function calc(){const v=+document.getElementById("inc").value,o=document.getElementById("out");
+if(!(v>=0)||!document.getElementById("inc").value){o.innerHTML="আয়ের পরিমাণ লিখুন।";return}
+let rest=Math.max(0,v-FREE),tax=0;for(const[s,r]of SLABS){const x=Math.min(rest,s);tax+=x*r;rest-=x;if(rest<=0)break}
+const min=MIN_TAX[document.getElementById("loc").value];let note="";
+if(v>FREE&&tax<min){tax=min;note=" (ন্যূনতম কর প্রযোজ্য)"}
+if(v<=FREE)tax=0;
+o.innerHTML=`<span class="res">আনুমানিক কর: ${tk(tax)}</span>${note}<p class="mute">করমুক্ত সীমা ${tk(FREE)}। সঠিক হিসাব ছাড়-রেয়াত ও আপনার অবস্থা দেখে হয়।</p>`}
+function chk(){const c=[...document.querySelectorAll('#app input[type=checkbox]')];document.getElementById("ck").textContent=c.filter(x=>x.checked).length+" / "+c.length+" টি প্রস্তুত"}
+async function send(how){const n=v("n"),p=v("p"),t=v("t"),m=v("m"),er=document.getElementById("err");
+if(!n||!p||!m){er.textContent="নাম, মোবাইল নম্বর ও সমস্যা লিখুন।";return}er.textContent="";
+const txt=`নাম: ${n}\nমোবাইল: ${p}\nবিষয়: ${t}\nসমস্যা: ${m}`;
+if(how=="wa"){window.open(`https://wa.me/${CFG.whatsapp}?text=${encodeURIComponent(txt)}`,"_blank");return}
+const b=document.getElementById("cb");b.disabled=true;er.textContent="পাঠানো হচ্ছে…";
+try{await post({_subject:"পরামর্শের অনুরোধ — "+t,_template:"table",name:n,phone:p,topic:t,message:m});er.textContent="ধন্যবাদ! আপনার অনুরোধ পৌঁছে গেছে। শীঘ্রই যোগাযোগ করা হবে।";["n","p","m"].forEach(i=>document.getElementById(i).value="")}
+catch(x){er.textContent="পাঠানো যায়নি। WhatsApp বাটনে চেষ্টা করুন।"}b.disabled=false}
+async function post(d){const r=await fetch("https://formsubmit.co/ajax/"+CFG.email,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(d)});if(!r.ok)throw 0}
+async function sub(){const e=v("se"),b=document.getElementById("sb"),o=document.getElementById("ss");
+if(!/^\S+@\S+\.\S+$/.test(e)){o.textContent="সঠিক ইমেইল দিন।";return}
+b.disabled=true;o.textContent="পাঠানো হচ্ছে…";
+try{await post({_subject:"New subscriber — "+CFG.name,_template:"table",email:e,type:"Subscribe"});o.textContent="ধন্যবাদ! আপনার ইমেইল যুক্ত হয়েছে। নতুন গাইড ও আপডেটের খবর পাবেন।";document.getElementById("se").value=""}
+catch(x){o.textContent="পাঠানো যায়নি। ইন্টারনেট দেখে আবার চেষ্টা করুন।"}b.disabled=false}
+function v(i){return document.getElementById(i).value.trim()}
+function days(){const el=document.getElementById("days");if(!el)return;const n=new Date(),y=n.getFullYear();let d=new Date(y,10,30);if(n>d)d=new Date(y+1,10,30);el.textContent=Math.ceil((d-n)/864e5)+" দিন বাকি ("+d.getDate()+" নভেম্বর "+d.getFullYear()+")"}
+function route(){const h=location.hash.slice(1)||"home",[k,arg]=h.split("/"),app=document.getElementById("app");
+if(k=="search")app.innerHTML=searchPage(arg);else app.innerHTML=(PAGES[k]||PAGES.home)[1]();
+document.querySelectorAll("#nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")=="#"+k));
+document.title=((PAGES[k]||[""])[0]?PAGES[k][0]+" — ":"")+CFG.name;window.scrollTo(0,0);days()}
+document.getElementById("nav").innerHTML=Object.keys(PAGES).filter(k=>!["privacy","disclaimer","terms"].includes(k)).map(k=>`<a href="#${k}">${PAGES[k][0]}</a>`).join("");
+document.getElementById("foot").innerHTML=`<a href="tel:${CFG.phone}">${CFG.phone}</a> · <a href="tel:${CFG.phone2}">${CFG.phone2}</a> · <a href="mailto:${CFG.email}">${CFG.email}</a> · <a href="https://wa.me/${CFG.whatsapp}" target="_blank" rel="noopener">WhatsApp</a> · <a href="${CFG.facebook}" target="_blank" rel="noopener">Facebook</a>`;
+addEventListener("hashchange",route);route();
+</script>
+</body>
+</html>
